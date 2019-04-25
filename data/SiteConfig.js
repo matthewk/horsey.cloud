@@ -20,14 +20,14 @@ const config = {
   // userLocation: "North Pole, Earth", // User location to display in the author segment.
   // userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   // userDescription:
-    "Ride Ride Ride.", // User description to display in the author segment.
+    // "Ride Ride Ride.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
-  // userLinks: [
-  //   {
-  //     label: "GitHub",
-  //     url: "https://github.com/Vagr9K/gatsby-material-starter",
-  //     iconClassName: "fa fa-github"
-  //   },
+   userLinks: [
+    {
+      label: "Colours",
+      url: "/categories/colours",
+      iconClassName: "fa fa-palette"
+    },
   //   {
   //     label: "Twitter",
   //     url: "https://twitter.com/Vagr9K",
@@ -38,7 +38,7 @@ const config = {
   //     url: "mailto:vagr9k@gmail.com",
   //     iconClassName: "fa fa-envelope"
   //   }
-  // ],
+  ],
   copyright: "Copyright © 2019. Material User" // Copyright string for the footer of the website and RSS feed.
 };
 
