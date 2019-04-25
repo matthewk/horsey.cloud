@@ -24,6 +24,7 @@ export default class PostTemplate extends React.Component {
     };
     this.handleResize = this.handleResize.bind(this);
   }
+
   componentDidMount() {
     this.handleResize();
     window.addEventListener("resize", this.handleResize);
@@ -87,12 +88,12 @@ export default class PostTemplate extends React.Component {
                 />
               </div>
             </Card>
-            <UserInfo
+            {/* <UserInfo
               className="md-grid md-cell md-cell--12"
               config={config}
               expanded={expanded}
             />
-            <Disqus postNode={postNode} expanded={expanded} />
+            <Disqus postNode={postNode} expanded={expanded} /> */}
           </div>
 
           <PostSuggestions postNode={postNode} />
