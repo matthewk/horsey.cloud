@@ -54,7 +54,7 @@ export default class PostTemplate extends React.Component {
       post.category_id = config.postDefaultCategoryID;
     }
 
-    const coverHeight = mobile ? 180 : 350;
+    const coverHeight = mobile ? 180 : 600; // 350;
     return (
       <Layout location={this.props.location}>
         <div className="post-page md-grid md-grid--no-spacing">
