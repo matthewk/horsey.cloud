@@ -1,19 +1,16 @@
 ---
-title: My Favourite Horse
+title: Beautiful Brown Horse
 date: 2019-04-25T19:52:48.992Z
 cover: /assets/animal-equine-farm-635499.jpg
 slug: Ride em cowboy
-category: brown
+category: Colours
 tags:
   - brown
-  - shetland
 ---
-****
+- - -
 
-**This is a horse of course**
+**I saw this picture via google and just had to post it**
 
-****
+- - -
 
-![](/assets/3.jpg "horse coffee")
-
-wow that was simple
+I will let you know some more information about this horse once I have done my research.
