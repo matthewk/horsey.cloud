@@ -12,7 +12,7 @@ collections:
     files:
       - label: "About Page"
         name: "about"
-        file: "static/pages/about.yml"
+        file: "static/pages/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
