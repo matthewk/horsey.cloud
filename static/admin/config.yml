@@ -7,8 +7,17 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: blog
-    label: "Post"
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "static/pages/about.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Post"
+    name: "blog"
     folder: "content"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
