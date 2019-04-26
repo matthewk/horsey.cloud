@@ -1,5 +1,5 @@
 ---
-title: Adorable horse show smallest foal to horse
+title: Adorable horse show smallest foal to fully grown horse!
 date: 2019-04-26T15:43:44.017Z
 cover: /assets/animals-cowboy-equine-159889.jpg
 slug: Awwwwwww!
